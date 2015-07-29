@@ -1,0 +1,1 @@
+ejabberdctl unregister ejab_2 ejabberd
