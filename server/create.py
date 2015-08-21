@@ -29,6 +29,6 @@ elif 'successfully registered' in t[0]:
 elif 'already registered' in t[0]:
     response = {'return_code':0,'msg':'success'}
 else:
-    response = {'return_code':2,'msg':'reasons unknown, pls file a bug, error occurred in ejabberd server'}
+    response = {'return_code':2,'msg':'Error occurred in ejabberd server (Did you enter the correct sudo password?)'}
 
 print(json.JSONEncoder().encode(response))
