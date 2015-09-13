@@ -75,7 +75,7 @@ if __name__ == "__main__":
         data = json.load(config_file)
         LOG_LOC = data['log_location']
         LOG_NAME = data['log_name']
-        IP = data['public_ip']
+        IP = data['self_ip']
         ADMIN_IP = data['admin_ip']
         PORT = data['port']
         config_file.close()

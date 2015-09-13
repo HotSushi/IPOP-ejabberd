@@ -1,7 +1,7 @@
 {
 "admin_ip":"192.168.0.106",
 "port":"8000",
-"public_ip":"192.168.0.102",
+"self_ip":"192.168.0.102",
 "log_name":"ejabberd.log",
 "log_location":"/var/log/ejabberd/ejabberd.log"
 }
